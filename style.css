@@ -1,0 +1,499 @@
+*{
+     margin: 0;
+     padding: 0;
+}
+
+body{
+ 
+    font-family:'Arial Black',sans-serif;
+    color: #001368;
+    font-size: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.slice{
+     width: 100%;
+     height: 30px;
+}
+header {
+  position: fixed;
+  background-color: white;
+  top: 0;
+  left: 0;
+    width: 100%;
+    height: 80px;
+    /*  border: solid 2px green;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;*/
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
+   0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+.head{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header:nth-child(2) {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.menu_hamburger {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.nazwa_firmy {
+    font-size: 1.25em;
+    display: inline-block;
+    padding-left: 10px;
+    padding-top: 7px;
+}
+
+img {
+    width:120px;
+    height:120px;
+    padding: 20px;
+}
+.srodek>img{
+    width: 60px;
+    height: 60px;
+    padding: 5px;
+}
+.el_menu {
+    margin-left: 3px;
+    border: solid 2px grey;
+    width: 50px;
+    display: block;
+    margin-top: 8px;
+}
+
+.baner{
+    text-align: center;
+    width:100%;
+    height: 300px;
+    background-image:url(media/image/war3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+  align-items: center;
+  
+}
+.uslugi{
+    font-size: 1em;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      text-align: center;
+    
+
+}
+
+.uslugi>div{
+    font-size: 0.5em;
+    width: 49.9%;
+    height: 300px;
+    padding: 10px 10px 10px 25px;
+    margin-bottom:10px;
+}
+.gorne_wybieram_trase {
+  display: none;
+}
+
+
+.wybieram2 {
+     width: 100%;
+     
+}
+
+.wybieram2 .men{
+    display: flex;
+justify-content: center;
+align-items: center;
+ border: 1px dotted navy;
+
+}
+.wybieram2 .men:first-child{
+    background-color:rgba(191, 190, 194, 0.87);
+}
+.wybieram2 .men:last-child {
+    background-color: rgba(224, 224, 222, 0.904);
+}
+
+.color{
+    width: 100%;
+}
+.mapa{
+width: 100%;
+}
+p.zielony {
+    font-size: 1em;
+    color: #CBBF25;
+
+}
+span.bialy {
+font-size: 2.3em;
+letter-spacing:-2;
+line-height: 1.2;
+    color: white;
+}
+.title_uslugi {
+    padding-top: 30px;
+    padding-bottom:30px;
+    text-align: center;
+    font-size: 1.9em;
+}
+
+.godziny {
+   padding: 100px;
+    display: flex;
+    flex-wrap: wrap;
+   
+   
+}
+
+.pocz,.hour {
+     font-family: Arial,Helvetica,sans-serif;
+    font-size: 0.9em;
+    color: black;
+   
+}
+
+
+
+.srodek {
+    height: 150px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-bottom: 60px;
+}
+
+.godziny>div {
+    width: 100%;
+    /*  border: 1px solid red;*/
+}
+
+.godziny:first-child {
+    width: 70%;
+}
+
+.Onas {
+    display: flex;
+
+}
+
+.Onas>div {
+    width: 49%;
+    /*border:1px solid red;*/
+}
+
+.men{
+        font-family: "arial black";
+        color: navy;
+        font-size:1.9em;
+      
+        text-align: center;
+       
+
+    
+}
+li.men{
+    font-size: 0.9em;
+}
+p.zielony {
+    font-size: 1.5em;
+}
+
+section.marki {
+    width: 100%;
+    height: 300px;
+    background-image: url(media/image/logos.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 70px;
+}
+ul{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+
+}
+
+
+.hour {
+    display: block;
+
+}
+.ha {
+    display: flex;
+    justify-content: center;
+}
+h1 {
+    padding: 20px;
+    text-align: center;
+}
+footer {
+    width: 100%;
+    height: 500px;
+    display: flex;
+    
+
+}
+
+.border {
+
+    /* border:solid 1px navy;*/
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+   justify-content: center;
+  
+}
+
+
+.kon {
+    width: 100%;
+    /*  border:1px solid red; */
+    display: flex;
+    justify-content: center;
+
+}
+
+.tars {
+    /* border:1px solid red;*/
+    display: flex;
+    justify-content: center;
+
+}
+
+.b{
+    /*  border: 3px solid green;*/
+
+    text-align: center;
+}
+
+.b>p {
+    padding: 25px;
+}
+.lorem {
+    font-size: 1.3em;
+    color: #D0D0D8;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 15px;
+}
+.small {
+    width: 35px;
+    height: 35px;
+}
+h4{font-size: 1.7em;
+
+}
+li{
+    list-style: none;
+    line-height: 1.9em;
+    font-family: "arial black";
+    color: navy;
+    font-size: 1em;
+
+   
+}
+.pytanie{
+    width: 100%;
+  
+    margin-top: 50px;
+    display: flex;
+     flex-direction:column;
+     justify-content: space-between;
+     text-align: center;
+}
+.pytanie>h2{
+text-align: left;
+} 
+
+h2+p{
+    color: #D0D0D8;
+    font-size: 0.5em;
+  
+}
+.telefon{
+     color: #001368;
+     font-size: 0.5em;
+     visibility: hidden;
+}
+
+button{
+    margin-top: 10%;
+    width: 100px;
+    height: 40px;
+    background-color: #001368;
+    border: none;
+    color: white;
+    font-family: "Arial Black",sans-serif;
+
+}
+form{
+   width:80%;
+   height: 500px;
+  
+}
+form>div{
+    display:flex;
+    justify-content: space-between;
+    margin:50px 0px;
+}
+input,textarea {
+
+    height: 50px;
+    display: inline-block;
+    border-right: none;
+    border-top: none;
+    border-left: none;
+    border-bottom:3px solid #001368;
+}
+
+input[name="imie"] {
+
+width:100%;
+
+}
+  input[name="e-mail"]{
+width:100%;
+  }
+
+textarea{
+    margin-top: 20px;
+    width: 100%;
+    height: 38px;
+    }
+.stopka{
+    width: 100%;
+    height: 200px;
+}
+
+@media only screen and (min-width:961px){
+    body{
+        font-size: 20px;
+    }
+    .el_menu{
+        margin-left: 0;
+    }
+    .title_uslugi {
+      
+        font-size: 4rem;
+    }
+    .container {
+        max-width: 90%;
+        margin: 0 auto;
+        /* border: solid 3px blueviolet;*/
+    }
+    .uslugi>div{
+        width:30.3%;
+        
+    }
+    .gorne_wybieram_trase {
+        display:inline;
+    }
+    img{
+        width: 100px;
+        height: 100px;
+    }
+    .wybieram2 {
+        display: none;
+    }
+    .small {
+        width: 50px;
+        height: 50px;
+    }
+    .lorem {
+        font-size: 1rem;}
+.baner{
+       height:100vh;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-image: url(media/image/baner8.jpg);
+        background-position:right;
+      display: inline-block;
+      text-align:left;
+      }
+h4 {
+    font-size: 1.2em;
+    height: 50px;
+}
+      .wysokosc {
+          height: 100%;
+          display: flex;
+          align-items: flex-end;
+      }
+      .box2 {
+          display: block;
+      }
+
+      .box {
+
+          height: 30%;
+          display: flex;
+          align-items: center;
+
+      }
+      .men {
+
+          font-family: "arial black";
+          color: navy;
+          font-size: 1rem;
+          display: flex;
+          text-align: center;
+          align-items: center;
+          border: none;
+
+
+      }
+      .godziny>div {
+          width: 49%;
+          /*  border: 1px solid red;*/
+      }
+      span.bialy {
+          font-size: 3.3rem;
+          letter-spacing: -2;
+          line-height: 1.2;
+
+      }
+      p.zielony {
+          font-size: 1.5rem;
+      }
+      h4 {
+          font-size: 1.2rem;
+          
+      }
+
+.color{
+    border:none;
+}
+li.men{
+   font-size: 1em;
+}
+.srodek{
+    margin-bottom: 0px;
+}
+form{
+    width: 50%;
+}
+.pytanie{
+    width:50%;
+    height: 320px;
+    text-align: left;
+}
+.telefon{
+ visibility:visible ;
+ font-size: 0.7em;
+}
+}

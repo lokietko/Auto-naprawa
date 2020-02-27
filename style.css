@@ -180,6 +180,7 @@ line-height: 1.2;
 
 .godziny>div {
     width: 100%;
+  
     /*  border: 1px solid red;*/
 }
 
@@ -259,7 +260,9 @@ footer {
    justify-content: center;
   
 }
-
+.hour>li{
+      font-family: "Arial",sans-serif;
+}
 
 .kon {
     width: 100%;
@@ -306,6 +309,10 @@ li{
     font-size: 1em;
 
    
+}
+
+span.kont{
+    color:#D0D0D8;
 }
 .pytanie{
     width: 100%;
@@ -359,6 +366,8 @@ input,textarea {
     border-top: none;
     border-left: none;
     border-bottom:3px solid #001368;
+    font-family:Arial,sans-serif;
+    color:#D0D0D8;
 }
 
 input[name="imie"] {

@@ -30,7 +30,7 @@ header {
     align-items: center;*/
    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
    0 6px 20px 0 rgba(0, 0, 0, 0.19);
-
+z-index: 2;
 }
 .head{
     width: 100%;
@@ -326,7 +326,28 @@ span.kont{
 .pytanie>h2{
 text-align: left;
 } 
+nav{
+   
+    width: 40%;
+    height:100vh;
+    background-color:white;
+    display:inline-block;
+    color:navy;
+    /*visibility:hidden;*/
+    position:fixed;
+    top:0;
+    left:0;
+    text-align:center;
+    z-index: 1;
+  }
+nav>ul{
 
+   padding-top:100px;
+    display:inline-block;
+}
+a{
+    text-decoration:none;
+}
 h2+p{
     color: #D0D0D8;
     font-size: 0.5em;
@@ -489,6 +510,9 @@ h4 {
 }
 li.men{
    font-size: 1em;
+}
+li.men:hover{
+   text-shadow: 1px 1px 5px rgba(154, 150, 150, 0.334);
 }
 .srodek{
     margin-bottom: 0px;

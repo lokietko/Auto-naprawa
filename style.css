@@ -336,7 +336,7 @@ nav{
     background-color:white;
     display:inline-block;
     color:navy;
-    /*visibility:hidden;*/
+    visibility:hidden;
     position:fixed;
     top:0;
     left:0;
@@ -413,6 +413,7 @@ textarea{
     height: 200px;
 }
 
+
 @media only screen and (min-width:961px){
     body{
         font-size: 20px;
@@ -472,8 +473,7 @@ h4 {
       }
 
       .box {
-
-          height: 30%;
+height: 30%;
           display: flex;
           align-items: center;
 

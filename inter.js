@@ -8,7 +8,7 @@ document.addEventListener("DOMContentLoaded", function () {
     var y = document.getElementById("do");
 
     function otw(){
-var nd=document.querySelector("div.zielony")
+var nd=document.querySelector("p.ziel")
 
         var dzisiaj = new Date();
         var dzien = dzisiaj.getDay();
@@ -29,6 +29,23 @@ var nd=document.querySelector("div.zielony")
 
 
  otw();
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 })
 

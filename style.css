@@ -75,7 +75,9 @@ img {
     display: block;
     margin-top: 8px;
 }
-
+a:active {
+color: #001368;
+}
 .baner{
     text-align: center;
     width:100%;
@@ -135,7 +137,7 @@ align-items: center;
 .mapa{
 width: 100%;
 }
-p.zielony {
+div.zielony {
     font-size: 1em;
     color: #CBBF25;
 
@@ -213,6 +215,7 @@ li.men{
 }
 p.zielony {
     font-size: 1.5em;
+    color: #CBBF25;
 }
 
 section.marki {
